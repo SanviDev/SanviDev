@@ -1,0 +1,166 @@
+<!--*  DESARROLLAR SECCION DE PLANES  -->
+<section id="planes">
+    <h1>Conoce nuestros planes</h1>
+    <div class="content">
+        <div class="plan">
+            <h2>Plan Básico</h2>
+            <div class="beneficios">
+                <ul>
+                    <li>Sitio Responsivo</li>
+                    <li>Hasta 3 secciones</li>
+                    <li>Dominio Personalizado</li>
+                    <li>Alojamiento Incluido</li>
+                    <li>Soporte tecnico ilimitado</li>
+                </ul>
+            </div>
+            <div class="precio">
+                <div class="antes"><p>$190 USD</p></div>
+                <div class="oferta"><p>$120 USD</p></div>
+            </div>
+            <div class="ver-mas"></div>
+        </div>
+        <div class="plan recomendado">
+            <h2>Plan Master</h2>
+            <div class="beneficios">
+                <ul>
+                    <li>Los beneficios del Plan Básico</li>
+                    <li>Hasta 6 secciones</li>
+                    <li>Sección de Catalogo</li>
+                    <li>Formulario de Contacto</li>
+                    <li>Integración a redes sociales</li>
+                    <li>Integracion a Whatsapp</li>
+                </ul>
+            </div>
+            <div class="precio">
+                <div class="antes"><p>$500 USD</p></div>
+                <div class="oferta"><p>$300 USD</p></div>
+            </div>
+
+            <div class="ver-mas"></div>
+        </div>
+        <div class="plan">
+            <h2>Plan Pro</h2>
+            <div class="beneficios">
+                <ul>
+                    <li>Los beneficios de Plan Master</li>
+                    <li>Panel Autoadministrable</li>
+                    <li>Soporte tecntico permanente</li>
+                </ul>
+            </div>
+            <div class="precio">
+                <div class="antes"><p>$900 USD</p></div>
+                <div class="oferta"><p>$600 USD</p></div>
+            </div>
+            <div class="ver-mas"></div>
+        </div>
+    </div>
+    <div class="extra">
+        <i>Los precios pueden variar dependiendo del proyecto</i>
+        <div class="contact button">
+            <a href="https://api.whatsapp.com/send?phone=59892161509">
+                Saber Más
+            </a>
+        </div>
+    </div>
+</section>
+<style>
+    #planes {
+    }
+    .content {
+        padding: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .plan {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25rem;
+        width: 20%;
+        background-color: #323232;
+        border: 1px solid #aaa;
+        box-shadow: 0px 0px 5px#1cf;
+        padding: 3rem;
+        border-radius: 10px;
+    }
+    .recomendado {
+        height: 27rem;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        color: #1cf;
+    }
+    h2,
+    h1 {
+        text-align: center;
+    }
+    ul {
+        margin: 1rem 0;
+        color: #dadada;
+    }
+    .precio {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: -23px;
+    }
+    p {
+        margin: 0;
+    }
+    .antes {
+        color: #aaa;
+
+        text-decoration: line-through;
+        font-size: 1.2rem;
+    }
+
+    .oferta {
+        color: rgb(39, 140, 168);
+        font-size: 2.3rem;
+        margin: 0;
+        font-weight: bold;
+    }
+    .extra {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #aaa;
+    }
+    .button.contact {
+        background-color: rgb(53, 168, 200);
+        margin: 2rem;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        width: 15rem;
+        height: 3rem;
+        background-color: #4a4a4a;
+        transition: 150ms;
+        overflow: hidden;
+    }
+    .button:hover {
+        background-color: #7a7a7a;
+    }
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        color: #fafafa;
+        text-decoration: none;
+    }
+    .button.contact:hover {
+        background-color: #1b4654 !important;
+    }
+</style>
