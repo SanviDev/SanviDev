@@ -9,11 +9,8 @@ export async function handler(event) {
 📩 Nuevo mensaje del formulario:
 \n\n
 👤 Nombre: ${data.nombre}
-\n
 📧 Email: ${data.email}
-\n
 📞 Teléfono: ${data.telefono}
-\n
 📝 Mensaje: ${data.mensaje}
     `;
 
