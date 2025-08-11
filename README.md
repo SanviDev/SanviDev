@@ -6,7 +6,7 @@
 
 * I enjoy learning and developing skills. I'm constantly growing personally and academically.
 
-__ to more information, view: __
+*to more information, view:*
 
-- [https://portafolio.sanvidev.com](Portfolio)
-- [https://sanvidev.com](BusisnessPage)
+- [Portfoio](https://portafolio.sanvidev.com)
+- [BusisnessPage](https://sanvidev.com)
