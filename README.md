@@ -8,5 +8,4 @@
 
 *to more information, view:*
 
-- [Portfoio](https://portafolio.sanvidev.com)
-- [BusisnessPage](https://sanvidev.com)
+- [Portfoio](https://sanvidev.netlify.app)
